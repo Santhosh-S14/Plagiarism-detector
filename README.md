@@ -36,8 +36,8 @@
 		1. The file is scanned line by line and a global list contains a few words that are used in coding. 
 		2. If they are identified, they are tagged as code files.  
 
-## Threshold set after running LCS on the test files given is: 50%. If larger it is detected as a plagiarised file and 1 is returned. Otherwise, 0 is returned. 
+		## Threshold set after running LCS on the test files given is: 50%. If larger it is detected as a plagiarised file and 1 is returned. Otherwise, 0 is returned. 
 
-## LCS gave very reliable result when done word wise for each sentence of the file. But since the algorithm gave reliable results, algorithm was not changed and optimized as much as possible. A tradeoff for LCS. 
+		## LCS gave very reliable result when done word wise for each sentence of the file. But since the algorithm gave reliable results, algorithm was not changed and optimized as much as possible. A tradeoff for LCS. 
 
-## Also if the file contains less than a length of 500 it is not split into sentences and instead considered as a full string instead. This also improves the run time and space because we create only one DP array in this case.
+		## Also if the file contains less than a length of 500 it is not split into sentences and instead considered as a full string instead. This also improves the run time and space because we create only one DP array in this case.
